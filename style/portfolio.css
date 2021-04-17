@@ -24,7 +24,6 @@ h2 {
 
 .hero {
   background: var(--primary-background);
-  text-align: center;
   padding: 160px 20px;
 }
 
