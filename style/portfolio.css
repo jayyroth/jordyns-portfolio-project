@@ -1,3 +1,7 @@
+:root {
+    --primary-background: linear-gradient(to right, #ffefba, #ffffff);
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: black;
     font-family: 'Playfair Display', serif;
@@ -10,7 +14,7 @@ p, h2 {
 }
 
 .hero {
-    background-color: #f0ecfa;
+    background: var(--primary-background);
     text-align: center;
 }
 
