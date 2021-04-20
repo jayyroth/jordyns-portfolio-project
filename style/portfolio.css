@@ -1,5 +1,5 @@
 :root {
-  --primary-background: linear-gradient(to right, #ffefba, #ffffff);
+  --primary-background: #ffefba;
   --heading-font: "Playfair Display", serif;
   --primary-font: "Poppins", sans-serif;
 }
