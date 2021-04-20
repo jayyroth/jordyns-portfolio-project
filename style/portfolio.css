@@ -15,6 +15,10 @@ h6 {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 96px;
+}
+
 p,
 h2 {
   font-family: var(--primary-font);
@@ -22,13 +26,10 @@ h2 {
 }
 
 
-.hero {
+.hero, .about-section {
   background: var(--primary-background);
   padding: 160px 20px;
-}
-
-.hero h1 {
-  font-size: 96px;
+  text-align: center;
 }
 
 .hero h2 {
@@ -50,4 +51,12 @@ h2 {
   color: #ffffff;
   font-weight: bolder;
   padding: 15px 20px;
+}
+
+.about-section {
+  padding: 160px 50px
+}
+
+.img-fluid {
+  height: auto;
 }
