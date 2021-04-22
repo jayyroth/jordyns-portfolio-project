@@ -57,9 +57,13 @@ h2 {
 }
 
 .about-section {
-  padding: 160px 50px
+  padding: 160px 100px;
+}
+
+.about-me-paragraph {
+  text-align: left;
 }
 
 .img-fluid {
-  height: auto;
+  height: 400px;
 }
