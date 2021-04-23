@@ -1,5 +1,5 @@
 :root {
-  --primary-background: #ffefba;
+  --primary-background-color: #ffefba;
   --heading-font-family: "Playfair Display", serif;
   --primary-font-family: "Poppins", sans-serif;
   --primary-font-color: #2a363b;
@@ -21,16 +21,17 @@ h1 {
 }
 
 p,
-h2 {
+.homepage-h2 {
   font-family: var(--primary-font-family);
   font-weight: normal;
   color: var(--primary-font-color);
   opacity: 0.7;
 }
 
-
-.hero, .about-section, .myworks-section {
-  background: var(--primary-background);
+.hero,
+.about-section,
+.myworks-section {
+  background: var(--primary-background-color);
   padding: 160px 20px;
   text-align: center;
 }
@@ -46,14 +47,6 @@ h2 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-}
-
-.btn-branding {
-  background-color: #fddd73;
-  border-radius: 4px;
-  color: #ffffff;
-  font-weight: bolder;
-  padding: 15px 20px;
 }
 
 .about-section {
@@ -74,7 +67,8 @@ h2 {
   height: 400px;
 }
 
-.portfolio-link a, .resume-link a {
+.portfolio-link a,
+.resume-link a {
   text-decoration: none;
   color: var(--primary-font-color);
   opacity: 0.7;
@@ -82,8 +76,42 @@ h2 {
   border-radius: 5px;
   margin-top: 30px;
   padding: 10px 20px;
+  font-family: var(--primary-font-family);
 }
 
-.portfolio-link a:hover, .resume-link a:hover {
+.portfolio-link a:hover,
+.resume-link a:hover,
+.project-link:hover {
   font-weight: bold;
+  color: var(--primary-font-color);
+}
+
+.homeworks-subheading {
+  font-size: 25px;
+}
+
+.project-summary {
+  background-color: var(--primary-background-color);
+}
+
+.project-img {
+  margin-left: 70px;
+}
+
+.project-link {
+  padding: 10px 15px;
+  border-radius: 4px;
+  background-color: var(--primary-background-color);
+  text-decoration: none;
+  color: var(--primary-font-color);
+  opacity: 0.7;
+  font-family: var(--primary-font-family);
+}
+
+.coming-soon {
+    background: var(--primary-background-color);
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }
