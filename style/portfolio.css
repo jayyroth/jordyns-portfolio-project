@@ -67,3 +67,17 @@ h2 {
 .img-fluid {
   height: 400px;
 }
+
+.portfolio-link a {
+  text-decoration: none;
+  color: var(--primary-font-color);
+  opacity: 0.7;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  margin-top: 30px;
+  padding: 10px 20px;
+}
+
+.portfolio-link a:hover {
+  font-weight: bold;
+}
