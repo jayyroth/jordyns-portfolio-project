@@ -29,7 +29,7 @@ h2 {
 }
 
 
-.hero, .about-section {
+.hero, .about-section, .myworks-section {
   background: var(--primary-background);
   padding: 160px 20px;
   text-align: center;
