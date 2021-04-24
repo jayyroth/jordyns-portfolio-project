@@ -159,6 +159,7 @@ p,
 
   .about-section h1, p {
     text-align: center;
+    padding-right: 10px;
   }
 
   .headshot {
