@@ -29,7 +29,6 @@ p,
 }
 
 .hero,
-.about-section,
 .myworks-section,
 .connect-section {
   background: var(--primary-background-color);
@@ -51,17 +50,18 @@ p,
 }
 
 .about-section {
-  padding: 160px 100px;
-}
-
-.about-me-paragraph {
-  text-align: left;
+  background: var(--primary-background-color);
+  padding: 100px 100px;
 }
 
 .shecodes-link {
   text-decoration: none;
   font-weight: bold;
   color: var(--primary-font-color);
+}
+
+.headshot {
+  padding-left:160px;
 }
 
 .img-fluid {
@@ -123,8 +123,28 @@ p,
 
 .connect-icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: 60px;
   color: var(--primary-font-color);
-  margin: 10px;
+}
+
+@media (max-width: 576px) {
+
+  .hero {
+  text-align: center;
+  }
+
+  .about-section h1, p {
+    text-align: center;
+    padding: 0;
+  }
+
+  .portfolio-link {
+    display: block;
+    margin-bottom: 60px;
+  }
+
+
+
+
 }
